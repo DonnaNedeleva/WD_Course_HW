@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EmojiAsListBullets</title>
+    <style>
+        h1{
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-size: 40px;
+            text-align: center;
+        }
+
+    
+        div {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 30px;
+            border: solid grey 0.2em;
+            border-style:outset;
+        }
+      .happy::before {
+          content: "\1F603";
+        
+
+      }
+      .sad::before {
+          content: "\1F625";
+      }
+
+      .cry::before{
+          content: "\1F62D";
+      }
+    </style>
+</head>
+<body>
+    <h1>My Todo List</h1>
+    <div>
+    <p class="happy">Learn HTML</p>
+    <p class="sad">Learn CSS</p>
+    <p class="cry">Learn JavaScript</p>
+    </div>
+</body>
+</html>
